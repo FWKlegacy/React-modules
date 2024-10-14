@@ -1,13 +1,15 @@
 import './App.css';
-import MyForm from './component';
+import MyFomu from './form';
+import MyForm from './fom';
 
 
 
 
 function App() {
-
+  //<MyForm/>
   return (
-   <MyForm/>
+   <MyFomu/>
+   
   );
 }
 
