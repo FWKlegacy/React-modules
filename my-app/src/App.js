@@ -9,6 +9,7 @@ import Count from './count';
 import Track from './tracking';
 import Element from './dom';
 import Task from './task';
+import Home from './data';
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
     <Element/>
     <Track/>
     <Task/>
+    <Home/>
     </>
   );
 }

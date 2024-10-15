@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-//useRef exammple to prevent /avoid rerendering
+//useRef example to prevent /avoid rerendering
 
 function Count(){
 const[inputValue, setInputValue]= useState("");
