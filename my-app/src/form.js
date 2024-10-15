@@ -26,7 +26,7 @@ return(
         <label>Enter your Age :
             <input type="number" name="age" value={inputs.age || ""} onChange={handleChange}/>
         </label>
-        <input type="submit"></input>
+        <input type="submit"/>
     </form>
 );
 

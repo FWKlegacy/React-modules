@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-
+//useRef exammple to prevent /avoid rerendering
 
 function Count(){
 const[inputValue, setInputValue]= useState("");
@@ -18,6 +18,6 @@ onChange={(e)=>setInputValue(e.target.value)}/>
 </>
 );
 
-};
+}
 
 export default Count;

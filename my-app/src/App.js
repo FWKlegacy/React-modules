@@ -6,7 +6,9 @@ import Counter from './counter';
 import User from './user';
 import Car from './option';
 import Count from './count';
+import Track from './tracking';
 import Element from './dom';
+import Task from './task';
 
 function App() {
   
@@ -20,6 +22,8 @@ function App() {
     <Car/>
     <Count/>
     <Element/>
+    <Track/>
+    <Task/>
     </>
   );
 }
