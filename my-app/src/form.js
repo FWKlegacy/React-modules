@@ -30,7 +30,7 @@ return(
     </form>
 );
 
-}
+};
 
 export default MyFomu;
   
