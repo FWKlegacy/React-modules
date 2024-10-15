@@ -21,10 +21,10 @@ const handleSubmit=(event)=>{
 return(
     <form onSubmit={handleSubmit}>
         <label>Enter your Name :
-            <input  input typeof="text" name="username" value={inputs.username || ""} onChange={handleChange}></input>
+            <input type="text" name="username" value={inputs.username || ""} onChange={handleChange}/>
         </label>
         <label>Enter your Age :
-            <input  input typeof="number" name="age" value={inputs.age || ""} onChange={handleChange}></input>
+            <input type="number" name="age" value={inputs.age || ""} onChange={handleChange}/>
         </label>
         <input type="submit"></input>
     </form>

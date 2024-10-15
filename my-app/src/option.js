@@ -11,10 +11,12 @@ function Car(){
 
     return(
         <form>
-            <option value={myCar} onChange={handleChange}></option>
+            <select value={myCar} onChange={handleChange}>
+            <option value="VOLVO">VOLVO</option>
             <option value="BMW"> BMW</option>
             <option value="TOYOTA">TOYOTA</option>
             <option value="MERCEDES">MERCEDES</option>
+            </select>
         </form>
     );
 }
