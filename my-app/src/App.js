@@ -10,6 +10,7 @@ import Track from './tracking';
 import Element from './dom';
 import Task from './task';
 import Home from './data';
+import Father from './person';
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
     <Track/>
     <Task/>
     <Home/>
+    <Father/>
     </>
   );
 }
